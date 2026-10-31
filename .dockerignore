@@ -1,0 +1,25 @@
+# Secretos y credenciales sensibles que NUNCA deben empaquetarse en la imagen
+.env
+token.env
+client_secrets.json
+authorized_user.json
+
+# Historial de control de versiones
+.git
+.gitignore
+
+# Archivos de caché y temporales de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+

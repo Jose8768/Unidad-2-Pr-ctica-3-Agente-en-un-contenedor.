@@ -1,0 +1,21 @@
+# Secretos y credenciales sensibles (¡NUNCA SUBIR A GITHUB!)
+.env
+token.env
+client_secrets.json
+authorized_user.json
+
+# Archivos de caché y temporales de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
